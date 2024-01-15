@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/cadastro.css">
+  <title>TTwiter</title>
+</head>
+<body>
+  <section class="card">
+    <h1>Cadastro</h1>
+    <form action="POST">
+      <div class="input_container">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="nome de usuário">
+      </div>
+
+      <div class="input_container">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="example@email.com">
+      </div>
+
+      <div class="input_container">
+        <label for="nascimento">Data de nascimento</label>
+        <input type="text" name="nascimento" id="nascimento" placeholder="xx/xx/xxxx">
+      </div>
+
+      <div class="input_container">
+        <label for="senha">senha</label>
+        <input type="password" name="senha" id="senha" placeholder="*********">
+        <i class="fa-regular fa-eye"></i>
+      </div>
+
+      <div class="input_container">
+        <label for="confirma_senha">senha</label>
+        <input type="password" name="confirma_senha" id="confirma_senha" placeholder="*********">
+        <i class="fa-regular fa-eye"></i>
+      </div>
+
+      <div class="checkbox_container">
+        <input type="checkbox" name="termos" id="termos">
+        <p>Li e estou de acordo com os <a href="#">Termos</a> e <a href="#">Condições de uso</a>.</p>
+      </div>
+
+    </form>
+  </section>
+
+  <div class="img_container">
+    <img src="./img/Logo_TT.png" alt="Logo TTwiter">
+  </div>
+
+  <script src="https://kit.fontawesome.com/cdcca037dd.js" crossorigin="anonymous"></script>
+</body>
+</html>
