@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222222;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 2.7% 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: 547px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.input_container {
+  width: 100%;
+  position: relative;
+}
+
+.input_container > input{
+  display: block;
+  height: 54px;
+  width: 100%;
+  padding: 13px 15px;
+  font-size: 1rem;
+  border-radius: 6px;
+  font-family: inherit;
+}
+.input_container > label {
+  position: relative;
+  left: .7rem;
+  top: .5rem;
+  background-color: #f2f2f2;
+  padding: 4px;
+  font-size: 12px;
+}
+
+.btn {
+  height: 49px;
+  border-radius: 8px;
+  width: 100%;
+  background-color: #105F74;
+  color: #f2f2f2;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: ease-in-out 200ms;
+  font-size: 1rem;
+}
+.btn:hover {
+  transform: scale(1.02);
+  background-color: #1985A1;
+}
