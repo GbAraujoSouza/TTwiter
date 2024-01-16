@@ -1,0 +1,11 @@
+{
+  "name": "ttwiter",
+  "version": "1.0.0",
+  "description": "Projeto feito como parte do treinamento tecnico para desenvolvedor na EJCM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
