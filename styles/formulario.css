@@ -52,6 +52,7 @@ form {
   position: absolute;
   top: 50%;
   right: 15px;
+  cursor: pointer;
 }
 
 .input_container > input{
