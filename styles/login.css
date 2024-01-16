@@ -1,0 +1,14 @@
+a.esqueceu_senha {
+  align-self: flex-end;
+  color: #105F74;
+  text-decoration: none;
+}
+.termos {
+  text-align: center;
+}
+.termos > a {
+  color: #105F74;
+}
+.termos > a:hover {
+  font-weight: bold;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/formulario.css">
+  <link rel="stylesheet" href="./styles/login.css">
+  <!-- Importar fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>TTwiter</title>
+</head>
+<body>
+  <div class="img_container">
+    <img src="./img/Logo_TT.png" alt="Logo TTwiter">
+  </div>
+
+  <section class="card">
+    <h1>Bem vindo a plataforma TTwiter</h1>
+    
+    <form action="POST">
+
+      <div class="input_container">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="example@email.com">
+      </div>
+
+      <div class="input_container">
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+        <span><i class="fa-regular fa-eye"></i></span>
+      </div>
+
+      <a href="#" class="esqueceu_senha">Esqueci minha senha</a>
+
+      <button id="login_btn" class="btn" type="submit">Entrar</button>
+    </form>
+
+    <a class="link_login_cadastro" href="./cadastro.html">Registrar</a>
+        
+    <p class="termos">Li e estou de acordo com os <a href="#">Termos</a> e <a href="#">Condições de uso</a>.</p>
+  </section>
+
+  <script src="https://kit.fontawesome.com/cdcca037dd.js" crossorigin="anonymous"></script>
+</body>
+</html>
