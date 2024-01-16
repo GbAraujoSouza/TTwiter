@@ -4,13 +4,138 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/style.css">
+  <!-- Importar fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <title>TTwiter</title>
 </head>
 <body>
-  <h1>Olá mundo</h1>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit qui ipsam eum deserunt, fugit architecto delectus possimus repellat unde quis harum alias quasi aliquam, nisi, consectetur odio a blanditiis enim.</p>
+  <header class="f_align_center">
+    <img src="./img/Logo_TT.png" alt="Logo TTwiter" id="logo">
+    <div class="search_bar">
+      <span><i class="fa-solid fa-magnifying-glass"></i></span>
+      <input type="search" placeholder="Buscar">
+    </div>
+    <div class="user_profile_container">
+      <span class="user_nome">usuário</span>
+      <div class="user_foto"></div>
+    </div>
+  </header>
 
+  <main>
+    <nav>
+      <ul>
+        <li>
+          <iconify-icon icon="ant-design:home-outlined" width="40" height="40"></iconify-icon>
+          <a href="">Página Inicial</a>
+        </li>
+        <li>
+          <iconify-icon icon="ant-design:bell-outlined" width="40" height="40"></iconify-icon>
+          <a href="">Notificações</a>
+        </li>
+        <li>
+          <!-- <i class="fa-regular fa-comments fa-2xl"></i> -->
+          <iconify-icon icon="mynaui:chat-messages" width="40" height="40"></iconify-icon>
+          <a href="">Mensagens</a>
+        </li>
+        <li>
+          <iconify-icon icon="mdi:gear-outline" width="40" height="40"></iconify-icon>
+          <a href="">Configurações</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="postagens">
+
+      <div class="criar_post">
+        <textarea name="mensagem" id="mensagem">O que você está pensando...?</textarea>
+        <div class="espacado btns_criar_post">
+          <div class="inserir">
+            <iconify-icon icon="ic:baseline-image" style="color: #f2f2f2;" width="25" height="25"></iconify-icon>
+            <iconify-icon icon="bxs:smile" style="color: #f2f2f2;" width="25" height="25"></iconify-icon>
+            <iconify-icon icon="material-symbols:link" style="color: #f2f2f2;" width="25" height="25"></iconify-icon>
+          </div>
+          <button class="enviar_postagem">Postar</button>
+        </div>
+      </div>
+
+      <div class="post_cards">
+        
+        <div class="post">
+          <div class="post_header f_align_center">
+            <img src="./img/profile_image.jpg" alt="Imagem autor do post">
+            <span>HIDEO_KOJIMA</span>
+          </div>
+          <div class="post_conteudo">
+            <div class="post_imagem">
+              <img src="./img/post_image1.jpg" alt="Imagem do post">
+            </div>
+            <div class="post_btns espacado">
+              <span class="interact">
+                <iconify-icon icon="ant-design:like-outlined" width="32" height="32"></iconify-icon>
+                <iconify-icon icon="uiw:message" width="32" height="32"></iconify-icon>
+              </span>
+              <span class="like">
+                <iconify-icon icon="icon-park-outline:like" style="color: #db0031;" width="32" height="32"></iconify-icon>
+              </span>
+            </div>
+            <div class="legenda">
+              <p>With Al Pacino san.</p>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post_header f_align_center">
+            <img src="./img/profile_image.jpg" alt="Imagem autor do post">
+            <span>Usuário</span>
+          </div>
+          <div class="post_conteudo">
+            <div class="post_imagem">
+              <img src="./img/post_image1.jpg" alt="Imagem do post">
+            </div>
+            <div class="post_btns espacado">
+              <span class="interact">
+                <iconify-icon icon="ant-design:like-outlined" width="32" height="32"></iconify-icon>
+                <iconify-icon icon="uiw:message" width="32" height="32"></iconify-icon>
+              </span>
+              <span class="like">
+                <iconify-icon icon="icon-park-outline:like" style="color: #db0031;" width="32" height="32"></iconify-icon>
+              </span>
+            </div>
+            <div class="legenda">
+              <p>With Al Pacino san.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <section class="conhecidos_container f_align_center">
+      <p>Pessoas que talvez você conheça</p>
+      <ul>
+        <li class="f_align_center espacado">
+          <div class="user_profile_conhecido f_align_center"><div class="user_foto"></div><span>@usuario</span></div>
+          <div class="adicionar_usuario">Adicionar</div>
+        </li>
+        <li class="f_align_center espacado">
+          <div class="user_profile_conhecido f_align_center"><div class="user_foto"></div><span>@usuario</span></div>
+          <div class="adicionar_usuario">Adicionar</div>
+        </li>
+        <li class="f_align_center espacado">
+          <div class="user_profile_conhecido f_align_center"><div class="user_foto"></div><span>@usuario</span></div>
+          <div class="adicionar_usuario">Adicionar</div>
+        </li>
+        <li class="f_align_center espacado">
+          <div class="user_profile_conhecido f_align_center"><div class="user_foto"></div><span>@usuario</span></div>
+          <div class="adicionar_usuario">Adicionar</div>
+        </li>
+      </ul>
+    </section>
+  </main>
   <script src="./js/script.js"></script>
   <script src="https://kit.fontawesome.com/cdcca037dd.js" crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
 </html>
