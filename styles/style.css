@@ -124,6 +124,7 @@ section.postagens .criar_post #mensagem {
   width: 100%;
   height: 72px;
   border: none;
+  outline: none;
   background-color: transparent;
   color: #f2f2f2;
   font-family: inherit;
