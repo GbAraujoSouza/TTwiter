@@ -1,8 +1,8 @@
 class Post {
   constructor(imgPath, userImgPath, nomeUsuario, legenda) {
     this.imgPath = imgPath;
-    this.userImgPath = userImgPath | "";
-    this.nomeUsuario = nomeUsuario
+    this.userImgPath = userImgPath || null;
+    this.nomeUsuario = nomeUsuario;
     this.legenda = legenda;
   }
 
