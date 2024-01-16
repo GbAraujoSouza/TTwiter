@@ -155,12 +155,13 @@ div.post_cards {
 }
 div.post_cards .post {
   border: solid 1px #484848;
-  padding: 2% 5%;
+  padding: 10% 7%;
 }
 div.post_cards .post_header {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 div.post_cards .post_header img {
   border-radius: 50%;
@@ -190,6 +191,6 @@ div.post_cards .post_conteudo .post_btns{
 main {
   display: grid;
   grid-template-columns: 1fr 6fr 2.8fr;
-  gap: 16%;
+  gap: 10%;
   position: relative;
 }
