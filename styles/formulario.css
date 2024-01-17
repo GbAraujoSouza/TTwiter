@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
+  gap: 10%;
   font-family: "Inter", sans-serif;
 }
 
