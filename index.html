@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/Logo_TT.png" type="image/x-icon">
   <title>TTwiter</title>
 </head>
 <body>
@@ -49,8 +50,8 @@
 
     <section class="postagens">
 
-      <div class="criar_post">
-        <textarea name="mensagem" id="mensagem" placeholder="O que você está pensando...?"></textarea>
+      <form class="criar_post">
+        <textarea name="mensagem" id="mensagem" placeholder="O que você está pensando...?" required></textarea>
         <div class="espacado btns_criar_post">
           <div class="inserir">
             <iconify-icon icon="ic:baseline-image" style="color: #f2f2f2;" width="25" height="25"></iconify-icon>
@@ -59,7 +60,7 @@
           </div>
           <button class="enviar_postagem">Postar</button>
         </div>
-      </div>
+      </form>
       
       <div class="post_cards"></div>
 
@@ -87,6 +88,7 @@
     </section>
   </main>
 
+  <script type="module" src="./js/criar-novo-post.js"></script>
   <script type="module" src="./js/busca.js"></script>
   <script type="module" src="./js/display-posts.js"></script>
   <script src="./js/script.js"></script>
