@@ -48,7 +48,7 @@ class Post {
   }
 
   constroiElemento() {
-    let element = this.constroiHeader() + '<div class="post_conteudo">' + this.constroiImagem();
+    let element = this.constroiHeader() + '<div class="post_conteudo f_column_dir">' + this.constroiImagem();
     if (this.imgPath) {
       element += this.constroiBtns() + this.constroiLegenda();
     } else {
