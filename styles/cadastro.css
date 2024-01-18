@@ -8,3 +8,11 @@
 .checkbox_container label a:hover{
   font-weight: bold;
 }
+
+
+/* Responsividade para telas menores */
+@media screen and (max-width: 767px) {
+  body {
+    flex-direction: column-reverse;
+  }
+}
