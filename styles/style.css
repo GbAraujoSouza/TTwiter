@@ -203,6 +203,10 @@ div.post_cards .post_conteudo .post_imagem img {
 div.post_cards .post_conteudo .post_btns{
   display: flex;
 }
+div.post_cards .post_conteudo .legenda {
+  word-wrap: break-word;
+}
+
 
 main {
   display: grid;
