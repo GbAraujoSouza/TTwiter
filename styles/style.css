@@ -32,8 +32,9 @@ body {
 header {
   height: 10%;
   margin-bottom: 35px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 6fr 3fr;
   align-items: center;
   top: 0;
   background-color: inherit;
@@ -45,7 +46,7 @@ header img#logo {
   z-index: 2;
 }
 header .search_bar {
-  width: 60%;
+  /* width: 60%; */
   position: relative;
 }
 header .search_bar span {
@@ -73,6 +74,7 @@ header .user_profile_container {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  justify-self: end;
 }
 header .user_profile_container .user_nome {
   font-size: 20px;
