@@ -1,6 +1,6 @@
 # TTwiter
 
-Projeto feito como parte do treinamento tecnico para desenvolvedor na EJCM. A visualização da página pode ser vista no site 	&lt;nome do site no glich&gt;
+Projeto feito como parte do treinamento tecnico para desenvolvedor na EJCM. A visualização da página pode ser vista [aqui](https://discovered-hospitable-smell.glitch.me/?authuser=2)
 
 ## Funcionalidades
   ### Fazer novos posts
