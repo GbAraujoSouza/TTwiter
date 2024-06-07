@@ -7,6 +7,9 @@ Projeto feito como parte do treinamento tecnico para desenvolvedor na EJCM. A vi
   O usuário pode digitar uma mensagem na caixa de texto e, ao clicar em "Postar" o feed é atualizado com o novo post. Atualmente, só é possível realizar postagens contendo texto, como mostrado na imagem abaixo
 
   ![print da senha escondida](./img/divulgacao/exemplo-post.png)
+
+  ![imagem aleatoria](https://drive.google.com/uc?id=1ssFvaMGXx0lkCK5i3MthZtSYXXh6W4-a)
+  ![imagem aleatoria](https://drive.google.com/uc?export=view&id=1uEpd4IzXgwCzfxwivCTzbM5_ViMPLjZY)
   
   ### Mostrar/esconder senha
   Ao clicar no icone de um olho, o usuário mostra ou esconde a senha digitada, conforme o exemplo abaixo
