@@ -1,0 +1,14 @@
+{
+  "name": "ttwiter",
+  "version": "1.0.0",
+  "description": "Projeto feito como parte do treinamento tecnico para desenvolvedor na EJCM. A visualização da página pode ser vista [aqui](https://discovered-hospitable-smell.glitch.me/?authuser=2)",
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
